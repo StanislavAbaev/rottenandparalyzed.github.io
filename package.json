@@ -1,0 +1,25 @@
+{
+  "name": "rottenandparalyzed.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rottenandparalyzed/rottenandparalyzed.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rottenandparalyzed/rottenandparalyzed.github.io/issues"
+  },
+  "homepage": "https://github.com/rottenandparalyzed/rottenandparalyzed.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "^6.1.0"
+  }
+}
