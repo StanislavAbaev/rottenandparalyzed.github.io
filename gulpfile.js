@@ -14,6 +14,5 @@ done();
 gulp.task("resize", function(done){
 	gulp.src("site/img/*.png")
 	.pipe(imagemin())
-	.pipe(gulp.dest("demo/img/"))
 	done();
 });
