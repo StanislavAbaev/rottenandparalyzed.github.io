@@ -1,0 +1,150 @@
+
+body {
+	font-family:Helvetica;
+	font-size: 22px;
+	color:seashell;
+	background-color: black;
+	opacity: 0.9;
+}
+.main {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid grey;
+	height: 69px;
+	position: fixed;
+	top:0;
+	width:100%;
+	background-color:#0b0b0b;
+	opacity: 0.5;
+}
+
+.main .logo {
+	height:50px;
+	display: flex;
+	padding-left: 10px;
+	align-content:  center;
+	justify-content: center;
+	width: auto;
+}
+.ul li a {
+	text-decoration: underline;
+	color:seashell;
+}
+.ul li{
+	display: inline-flex;
+	padding: 0 10px;
+	color:grey;
+	justify-content: center;
+	align-content: center;
+	text-decoration: none;
+}
+/* MENU!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.container {
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width:100%;
+	height: 700px;
+	background-image: url(img-mission-background.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+}
+
+.text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 1.5em;
+	margin: 0px;
+	width: 1200px;
+	background-color:black;
+}
+
+/* Меню с чаяими (не трогать, блять, я эту хуйню час делал)*/
+.mar {
+	margin: 35px auto;
+	width:auto;
+	text-align: center;
+}
+.imgs {
+	margin:0 auto;
+	width:1000px;
+	height: auto;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.img img {
+	height: 200px;
+	width:300px;
+	display:flex;
+	margin:10px;
+	align-items:  center;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.img h4 {
+	margin: 10px auto;
+	text-align: center;
+}
+/*Bottom!!!!!!!!!!!!*/ 
+.bottom {
+	margin:0 auto;
+	display: flex;
+	height:31.25rem;
+	background-image: url(img-locations-background.jpg);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.bottom .bottom-heading {
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+   
+.bottom .bottom-box {
+	margin:0 20px;
+	background-color:#0b0b0b;
+	text-align: center;
+	width:300px;
+	opacity:0.9;
+}
+/*footer*/
+.end {
+	margin:0 auto;
+	height: auto;
+}
+.end-1 {
+	display: flex;
+	height:200px;
+}
+.end-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.foot {
+	height: 20px;
+}
+.tel {
+	text-decoration: none;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.foot p {
+	margin:0;
+	text-align: center;
+}
