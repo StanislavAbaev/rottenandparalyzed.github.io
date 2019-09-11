@@ -25,8 +25,8 @@
 					<li><a href="#">Contacts</a></li>
 				</ul>
 			</nav>
-			<i class="fas fa-arrow-up"></i>		
 			<i class="fas fa-angle-double-left"></i>
+			<i class="fas fa-arrow-up"></i>
 		</div>
 	</header>
 	<section id="aboutme" class="about" >
@@ -132,13 +132,12 @@
 			</div>
 		</section>
 		<footer class="footer">
-			<div class="container">
-				<div class="links">
-					<i class="fab fa-vk"></i>
-				</div>
+		<div class="container">
+			<div class="links">
+				<i class="fab fa-vk"></i>
 			</div>
-		</footer>
-
+		</div>
+	</footer>
 
 
 
@@ -146,6 +145,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
+<script src="js/contactform.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
