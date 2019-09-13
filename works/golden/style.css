@@ -1,0 +1,169 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	overflow: scroll;
+
+	color:#fff;
+	font-family: Helvetica, sans-serif;
+}
+header {
+	background: url(./img/first-bg.jpg) no-repeat center top/cover;
+	min-height: 650px;
+	margin: 0 auto;
+}
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 930px;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+}
+.titles{
+	padding-top: 10%;
+	color:#fff;
+}
+.ffr{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.logo {
+	margin-top: 25px;
+	float: left;
+}
+.ffr nav ul li a {
+	float:right;
+	display: inline-block;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #fff;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+.ffr a:hover{
+	border-bottom: 2px solid grey;
+}
+.head-1, .head-2, #button {
+	text-align: center;
+	font-family: Arial;
+	text-transform:uppercase;
+	margin-bottom: 30px;
+}
+.head-1 {
+	padding-top: 120px;
+	font-size: 40px;
+	font-weight: 400;
+}
+.head-2{
+	font-size: 65px;
+	font-weight: 800;
+}
+#button {
+	font-weight: 600;
+	display: block;
+	margin: 50px auto auto auto;
+	width: 240px;
+	background: #fed136;
+	color: #484543;
+	padding: 20px;
+	border-radius: 3px;
+}
+.services {
+	color: black;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 130px;
+}
+.box {
+
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.flex {
+	color:black;
+	display: flex;
+	flex-direction: row;
+}
+.main-header {
+	font-size: 40px;
+}
+.under-header{
+	font-size: 18px;
+	color:#6C7A89;
+	margin: 10px;
+}
+.img {
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.small_header {
+	margin: 10px  auto;
+	font-weight: bold;
+}
+.small_text {
+	color: #6C7A89;
+	font-size: 14px;
+}
+.under-header {
+	color:#6c7a89;
+}
+.about__inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.main-header,
+.under-header{
+	text-align: center;
+}
+.main-header{
+	margin-top: 50px;
+	color: #000;
+}
+.mounth {
+	font-size: 40px;
+color:#303030;
+line-height: 24px;
+}
+.subheader {
+line-height: 24px;
+	color:#dedede;
+}
+.text {
+	position: absolute;
+	width: 35%;
+	margin-top: 0;
+	color:black;
+	color: black;
+	line-height: 18px;
+	/*	float:right;*/
+}
+.about__box {
+	position: relative;
+}
+.about__box img {
+	display: block;
+	margin: 50px auto;
+}
+.text-leftside {
+	margin: 30px 15%;
+	left:50%;
+	top: 15%;
+
+}
+.text-rightside {
+	text-align: right;
+	margin: 30px 15%;
+	right:50%;
+	top: 15%;
+}
+
